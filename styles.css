@@ -1,0 +1,72 @@
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+body {
+    background-color: #BED7D1;
+  }
+
+div {
+  display:flex;
+  justify-content:center;
+}
+nav {
+  background-color:#F7EBC3;
+  height:300px;
+  width:600px;
+  text-align:center;
+  border:7px solid #e5bdfc;
+}
+
+form {
+  display:flex;
+  flex-direction:column;
+  margin: 10px 40px 10px 40px;
+}
+
+input {
+  margin: 10px 0px 10px 0px;
+}
+
+
+.contact-card{
+  margin:20px 350px 0px 350px;
+  border: 0px solid white;
+  border-radius:30px;
+  background-color:white;
+  text-align:left;
+  padding-left:50px;
+  display:flex;
+  flex-direction:column;
+}
+
+.name, .email, .address {
+  border:3px solid #e5bdfc;
+  height:20px;
+}
+.button {
+  background-color:#e5bdfc;
+  border:1px solid #e5bdfc;
+  height:40px;
+  border-radius:20px;
+}
+
+.flowers{
+  height:auto;
+  width:100%;
+  position:fixed;
+  bottom:0px;
+}
+
+footer {
+  height:100px;
+}
+
+.delete-btn {
+  background-color:#e5bdfc;
+  border:1px solid #e5bdfc;
+  height:30px;
+  width:100px;
+  border-radius:15px;
+}
